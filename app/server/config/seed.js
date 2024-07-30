@@ -1,6 +1,6 @@
 const { User } = require("../models");
-const db = require("../config/connection");
-const userInfo  = require("./user-seeds.json");
+const db = require("./connection");
+const userInfo  = require("../seeders/user-seeds.json");
 
 db.once("open", async () => {
     console.log(`Database connection open...`);
