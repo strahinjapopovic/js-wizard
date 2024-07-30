@@ -1,6 +1,6 @@
 require('dotenv').config({ path: '../.env' });
 const mongoose = require('mongoose');
 
-mongoose.connect(`mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@cluster0.v602xxx.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority&appName=Cluster0`);
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/mern-wizard-repo-db');
 
 module.exports = mongoose.connection;
