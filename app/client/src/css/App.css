@@ -388,6 +388,7 @@ table#sub-tbl tr td a:hover {
   color: var(--success);
 }
 
+button#Link,
 a#Link,
 Link.topBtn
  {
