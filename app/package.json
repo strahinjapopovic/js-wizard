@@ -7,6 +7,7 @@
     "start": "nodemon ./server/server.js",
     "development": "concurrently \"cd ./server && npm run watch\" \"cd ./client && npm run development\"",
     "build": "concurrently \"cd ./server && npm run watch\" \"cd ./client && npm run build\"",
+    "install": "cd ./server && npm install && cd ../client && npm install",
     "seed": "cd ./server && npm run seed",
     "cbuild": "cd ./client && npm run build"
   },
