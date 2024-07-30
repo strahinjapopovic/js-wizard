@@ -1,0 +1,44 @@
+[
+  {
+    "firstName": "John",
+    "lastName": "Doe",
+    "username": "jdoe",
+    "email": "jdoe@domain.net",
+    "password": "jdoe123"
+  },
+  {
+    "firstName": "Michael",
+    "lastName": "Smith",
+    "username": "msmith",
+    "email": "msmith@domain.com",
+    "password": "msmith123"
+  },
+  {
+    "firstName": "Larry",
+    "lastName": "Bird",
+    "username": "lbird",
+    "email": "lbird@domain.edu",
+    "password": "lbird123"
+  },
+  {
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "username": "mjordan",
+    "email": "mjordan@domain.biz",
+    "password": "lbird123"
+  },
+  {
+    "firstName": "David",
+    "lastName": "Green",
+    "username": "dgreen",
+    "email": "dgreen@domain.co",
+    "password": "dgreen123"
+  },
+  {
+    "firstName": "Stan",
+    "lastName": "Pope",
+    "username": "spope",
+    "email": "spope@domain.net",
+    "password": "admin"
+  }
+]

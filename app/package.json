@@ -1,0 +1,24 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "nodemon ./server/server.js",
+    "development": "concurrently \"cd ./server && npm run watch\" \"cd ./client && npm run development\"",
+    "build": "concurrently \"cd ./server && npm run watch\" \"cd ./client && npm run build\"",
+    "seed": "cd ./server && npm run seed",
+    "cbuild": "cd ./client && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "nodemon": "^3.1.4",
+    "vite-plugin-html": "^3.2.2"
+  }
+}
