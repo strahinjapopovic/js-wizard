@@ -13,8 +13,8 @@ export default defineConfig({
         description: "JavaScript, React, Vite and Progressive Web Application (PWA) for better performance.",
         background_color: '#225ca3',
         theme_color: '#225ca3',
-        id: "/?homescreen=1",
-        start_url: "/?homescreen=1",
+        id: "/",
+        start_url: "./",
         publicPath: './',
         icons: [
           {

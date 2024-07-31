@@ -125,7 +125,7 @@ div#header section#header-main {
   background-size: 150px;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url('../src/assets/images/favicon/js-logo.png');
+  background-image: url('./assets/images/favicon/js-logo.png');
 }
 
 div#header section#header-main span {
