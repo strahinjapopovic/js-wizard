@@ -14,8 +14,8 @@ export default defineConfig({
         background_color: '#225ca3',
         theme_color: '#225ca3',
         id: "/",
-        start_url: "./",
-        publicPath: './',
+        start_url: "/",
+        publicPath: '/',
         icons: [
           {
               src: "./src/images/logo-96x96.png",
@@ -52,19 +52,19 @@ export default defineConfig({
             type: 'image/png'
           },
         ],
-        "screenshots" : [
+        screenshots : [
           {
-            "src": "./src/images/install-icon-1611x844.png",
-            "type": "image/png",
-            "sizes": "1611x844",
-            "form_factor": "wide"
+            src: "./src/images/install-icon-1611x844.png",
+            type: "image/png",
+            sizes: "1611x844",
+            form_factor: "wide"
           },
           {
-              "src": "./src/images/install-icon-1100x980.png",
-              "type": "image/png",
-              "sizes": "1100x980",
-              "form_factor": "narrow"
-          }
+              src: "./src/images/install-icon-1100x980.png",
+              type: "image/png",
+              sizes: "1100x980",
+              form_factor: "narrow"
+          },
         ]
       },
       workbox: {
