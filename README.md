@@ -2,7 +2,7 @@
 
 ## MERN Full-Stack Wizard Repository
 
-![node version](https://img.shields.io/npm/v/node?logo=nodedotjs&label=Node.js%20RTE%20npm) ![express version](https://img.shields.io/npm/v/express?logo=express&label=Express.js&labelColor=grey&color=blue) ![npm version](https://img.shields.io/badge/version-v10.5.1-npm.svg?style=flat&logo=npm&label=npm&labelColor=grey&color=red) ![mongodb version](https://img.shields.io/npm/v/mongodb?style=flat&logo=mongodb&label=MongoDB&color=green) ![mongoose version](https://img.shields.io/npm/v/mongoose?style=flat&logo=mongoose&label=mongoose&color=red) ![react version](https://img.shields.io/npm/v/react?logo=react&label=React%20npm) ![@apollo/server](https://img.shields.io/npm/v/%40apollo%2Fserver?logo=apollo&label=%F0%9F%9A%80%20%40apollo%2Fserver%20npm)
+![node version](https://img.shields.io/npm/v/node?logo=nodedotjs&label=Node.js%20RTE%20npm) ![express version](https://img.shields.io/npm/v/express?logo=express&label=Express.js&labelColor=grey&color=blue) ![npm version](https://img.shields.io/npm/v/npm?logo=npm&label=Node%20Package%20Manager%20npm) ![mongodb version](https://img.shields.io/npm/v/mongodb?style=flat&logo=mongodb&label=MongoDB&color=green) ![mongoose version](https://img.shields.io/npm/v/mongoose?style=flat&logo=mongoose&label=mongoose&color=red) ![react version](https://img.shields.io/npm/v/react?logo=react&label=React%20npm) ![@apollo/server](https://img.shields.io/npm/v/%40apollo%2Fserver?logo=apollo&label=%F0%9F%9A%80%20%40apollo%2Fserver%20npm)
 
 <p align="left">
     <img src="https://img.shields.io/github/languages/top/strahinjapopovic/node-gen-readme?style=flat&color=blue" />
