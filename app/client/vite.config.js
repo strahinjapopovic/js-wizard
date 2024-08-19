@@ -18,49 +18,49 @@ export default defineConfig({
         publicPath: '/',
         icons: [
           {
-              src: "./src/images/logo-96x96.png",
+              src: "./logo-96x96.png",
               sizes: "96x96",
               type: "image/png",
               purpose: 'any'
           },
           {
-              src: "./src/images/logo-128x128.png",
+              src: "./logo-128x128.png",
               sizes: "128x128",
               type: "image/png",
               purpose: 'any'
           },
           {
-              src: "./src/images/logo-192x192.png",
+              src: "./logo-192x192.png",
               sizes: "192x192",
               type: "image/png",
               purpose: 'any'
           },
           {
-              src: "./src/images/logo-256x256.png",
+              src: "./logo-256x256.png",
               sizes: "256x256",
               type: "image/png",
               purpose: 'any'
           },
           {
-              src: "./src/images/logo-384x384.png",
+              src: "./logo-384x384.png",
               sizes: "384x384",
               type: "image/png"
           },
           {
-            src: './src/images/logo-512x512.png',
+            src: './logo-512x512.png',
             sizes: '512x512',
             type: 'image/png'
           },
         ],
         screenshots : [
           {
-            src: "./src/images/install-icon-1611x844.png",
+            src: "./install-icon-1611x844.png",
             type: "image/png",
             sizes: "1611x844",
             form_factor: "wide"
           },
           {
-              src: "./src/images/install-icon-1100x980.png",
+              src: "./install-icon-1100x980.png",
               type: "image/png",
               sizes: "1100x980",
               form_factor: "narrow"

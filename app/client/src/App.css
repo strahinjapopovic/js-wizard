@@ -21,8 +21,8 @@ body {
   width: 70%;
   margin: 0 auto;
   font-size: 24px;
-  background-color: var(--naval-blue);
   font-family: "Roboto", sans-serif;
+  background-color: var(--naval-blue);
 }
 
 h3 {
@@ -45,8 +45,8 @@ p#message-unautorised {
 
 p#error-message,
 p#message-unautorised {
-  font-size: x-large;
   font-weight: bold;
+  font-size: x-large;
 }
 
 p#message-unautorised a {
