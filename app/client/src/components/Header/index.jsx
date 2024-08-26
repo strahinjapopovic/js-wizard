@@ -12,15 +12,13 @@ const Header = () => {
     Auth.logout();
   };
   const [installable, setInstallable] = useState(false);
-  useEffect(() => {
-    window.addEventListener('beforeinstallprompt', (event) => {
-      window.deferredPrompt = event;
-      setInstallable(true);
-    });
-    window.addEventListener('appinstalled', (event) => {
-      window.deferredPrompt = null;
-    });
-  }, []);
+  window.addEventListener('beforeinstallprompt', (event) => {
+    window.deferredPrompt = event;
+    setInstallable(true);
+  });
+  window.addEventListener('appinstalled', (event) => {
+    window.deferredPrompt = null;
+  });
   const handleInstallClick = (event) => {
     const promptEvent = window.deferredPrompt;
     if(!promptEvent) {
@@ -36,14 +34,14 @@ const Header = () => {
           <>
             <span id='greeting'>Hi {Auth.getProfile().data.username}!</span>
             <div id='headerBtnDiv'>
-              {installable && <Link id="Link" className="topBtn" onClick={handleInstallClick}>Install</Link>}
+              <Link id="Link" className="topBtn" onClick={handleInstallClick}>Install</Link>
               <Link id="Link" className="topBtn" onClick={logout}>Logout</Link>
             </div>
           </>
         ) : (
           <>
             <div id='headerBtnDiv'>
-              {installable && <Link id="Link" className="topBtn" onClick={handleInstallClick}>Install</Link>}
+              <Link id="Link" className="topBtn" onClick={handleInstallClick}>Install</Link>
               <Link id="Link" className="topBtn" to="/">Home</Link>
               <Link id="Link" className="topBtn" to="/login">Login</Link>
               <Link id="Link" className="topBtn" to="/signup">Signup</Link>

@@ -79,13 +79,13 @@ class Profile extends Component {
                             </tr>
                             <tr>
                               <td id="label">File Name:</td>
-                              <td><a href='../../setup-wizard-repo/win/VSCode-Setup-1.91.1_WindowsOS-x64.exe'>VSCode-Setup-1.91.1_WindowsOS-x64 (.exe)</a></td>
+                              <td><a href='./setup-wizard-repo/win/VSCode-Setup-1.91.1_WindowsOS-x64.exe'>VSCode-Setup-1.91.1_WindowsOS-x64 (.exe)</a></td>
                               <td id="slabel">File Name:</td>
                               <td><Link onClick={alertMessage}>VSCode-Universal_MacOS (.zip)</Link></td>
                             </tr>
                             <tr>
                               <td id="label">94.9 (MB)</td>
-                              <td><a href='../../setup-wizard-repo/win/VSCode-Setup-1.91.1_WindowsOS-x64.exe'>
+                              <td><a href='./setup-wizard-repo/win/VSCode-Setup-1.91.1_WindowsOS-x64.exe'>
                                 <button id='download'>Download<span id="vline">
                                   <FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span>
                                 </button></a>
@@ -110,13 +110,13 @@ class Profile extends Component {
                             </tr>
                             <tr>
                               <td id="label">File Name:</td>
-                              <td><a href='../../setup-wizard-repo/win/VSCodeUserSetup-1.91.1-ARM64.exe'>VSCodeUserSetup-1.91.1-ARM64 (.exe)</a></td>
+                              <td><a href='./setup-wizard-repo/win/VSCodeUserSetup-1.91.1-ARM64.exe'>VSCodeUserSetup-1.91.1-ARM64 (.exe)</a></td>
                               <td id="slabel">File Name:</td>
                               <td><Link onClick={alertMessage}>VSCode-darwin-arm64 (.zip)</Link></td>
                             </tr>
                             <tr>
                               <td id="label">94.9 (MB)</td>
-                              <td><a href='../../setup-wizard-repo/win/VSCodeUserSetup-1.91.1-ARM64.exe'>
+                              <td><a href='./setup-wizard-repo/win/VSCodeUserSetup-1.91.1-ARM64.exe'>
                                 <button id='download'>Download<span id="vline">
                                   <FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span>
                                 </button></a>
@@ -158,19 +158,19 @@ class Profile extends Component {
                             </tr>
                             <tr>
                               <td id="label">File Name:</td>
-                              <td><a href='../../setup-wizard-repo/win/Node-v22.5.1_WindowsOS-x64.msi'>Node-v22.5.1_WindowsOS-x64 (.msi)</a></td>
+                              <td><a href='./setup-wizard-repo/win/Node-v22.5.1_WindowsOS-x64.msi'>Node-v22.5.1_WindowsOS-x64 (.msi)</a></td>
                               <td id="slabel">File Name:</td>
-                              <td><a href='../../setup-wizard-repo/mac/Node-v22.5.1_MacOS-x64.pkg'>Node-v22.5.1_MacOS-x64 (.pkg)</a></td>
+                              <td><a href='./setup-wizard-repo/mac/Node-v22.5.1_MacOS-x64.pkg'>Node-v22.5.1_MacOS-x64 (.pkg)</a></td>
                             </tr>
                             <tr>
                               <td id="label">27.5 (MB)</td>
-                              <td><a href='../../setup-wizard-repo/win/Node-v22.5.1_WindowsOS-x64.msi'>
+                              <td><a href='./setup-wizard-repo/win/Node-v22.5.1_WindowsOS-x64.msi'>
                                 <button id='download'>Download<span id="vline">
                                   <FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span>
                                 </button></a>
                               </td>
                               <td id="slabel">78.6 (MB)</td>
-                              <td><a href='../../setup-wizard-repo/mac/Node-v22.5.1_MacOS-x64.pkg'>
+                              <td><a href='./setup-wizard-repo/mac/Node-v22.5.1_MacOS-x64.pkg'>
                                 <button id='download'>Download<span id="vline">
                                   <FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span>
                                 </button></a>
@@ -189,19 +189,19 @@ class Profile extends Component {
                         </tr>
                         <tr>
                           <td id="label">File Name:</td>
-                          <td><a href='../../setup-wizard-repo/win/Node-v22.5.1_WindowsOS-ARM64.msi'>Node-v22.5.1_WindowsOS-ARM64 (.msi)</a></td>
+                          <td><a href='./setup-wizard-repo/win/Node-v22.5.1_WindowsOS-ARM64.msi'>Node-v22.5.1_WindowsOS-ARM64 (.msi)</a></td>
                           <td id="slabel">File Name:</td>
-                          <td><a href='../../setup-wizard-repo/mac/Node-v22.5.1_MacOS-ARM64.pkg'>Node-v22.5.1_MacOS-ARM64 (.pkg)</a></td>
+                          <td><a href='./setup-wizard-repo/mac/Node-v22.5.1_MacOS-ARM64.pkg'>Node-v22.5.1_MacOS-ARM64 (.pkg)</a></td>
                         </tr>
                         <tr>
                           <td id="label">24.2 (MB)</td>
-                          <td><a href='../../setup-wizard-repo/win/Node-v22.5.1_WindowsOS-ARM64.msi'>
+                          <td><a href='./setup-wizard-repo/win/Node-v22.5.1_WindowsOS-ARM64.msi'>
                             <button id='download'>Download<span id="vline">
                               <FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span>
                             </button></a>
                           </td>
                           <td id="slabel">70.7 (MB)</td>
-                          <td><a href='../../setup-wizard-repo/mac/Node-v22.5.1_MacOS-ARM64.pkg'>
+                          <td><a href='./setup-wizard-repo/mac/Node-v22.5.1_MacOS-ARM64.pkg'>
                             <button id='download'>Download<span id="vline">
                               <FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span>
                             </button></a>
@@ -291,7 +291,7 @@ class Profile extends Component {
                               <td id="label">File Name:</td>
                               <td><Link onClick={alertMessage}>MongoDB-7.0.12_WindowsOS-x86-64-signed (.msi)</Link></td>
                               <td id="slabel">File Name:</td>
-                              <td><a href='../../setup-wizard-repo/mac/MongoDB-7.0.12_MacOS-x86-64.tgz'>MongoDB-7.0.12_MacOS-x86-64 (.tgz)</a></td>
+                              <td><a href='./setup-wizard-repo/mac/MongoDB-7.0.12_MacOS-x86-64.tgz'>MongoDB-7.0.12_MacOS-x86-64 (.tgz)</a></td>
                             </tr>
                             <tr>
                               <td id="label">568 (MB)</td>
@@ -301,7 +301,7 @@ class Profile extends Component {
                                 </button></Link>
                               </td>
                               <td id="slabel">70.8 (MB)</td>
-                              <td><a href='../../setup-wizard-repo/mac/MongoDB-7.0.12_MacOS-x86-64.tgz'>
+                              <td><a href='./setup-wizard-repo/mac/MongoDB-7.0.12_MacOS-x86-64.tgz'>
                                 <button id='download'>Download<span id="vline">
                                   <FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span>
                                 </button></a>
@@ -323,7 +323,7 @@ class Profile extends Component {
                               <td id="label">File Name:</td>
                               <td><Link onClick={alertMessage}>MongoDB-7.0.12_Windows-x86_64 (.zip)</Link></td>
                               <td id="slabel">File Name:</td>
-                              <td><a href='../../setup-wizard-repo/mac/MongoDB-7.0.12_MacOS-ARM64.tgz'>MongoDB-7.0.12_MacOS-ARM64 (.tgz)</a></td>
+                              <td><a href='./setup-wizard-repo/mac/MongoDB-7.0.12_MacOS-ARM64.tgz'>MongoDB-7.0.12_MacOS-ARM64 (.tgz)</a></td>
                             </tr>
                             <tr>
                               <td id="label">590 (MB)</td>
@@ -333,7 +333,7 @@ class Profile extends Component {
                                 </button></Link>
                               </td>
                               <td id="slabel">65.3 (MB)</td>
-                              <td><a href='../../setup-wizard-repo/mac/MongoDB-7.0.12_MacOS-ARM64.tgz'>
+                              <td><a href='./setup-wizard-repo/mac/MongoDB-7.0.12_MacOS-ARM64.tgz'>
                                 <button id='download'>Download<span id="vline">
                                   <FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span>
                                 </button></a>
@@ -372,19 +372,19 @@ class Profile extends Component {
                             </tr>
                             <tr>
                               <td id="label">File Name:</td>
-                              <td><a href='../../setup-wizard-repo/win/Mongosh-2.2.12_WindowsOS-x64.msi'>Mongosh-2.2.12_WindowsOS-x64 (.msi)</a></td>
+                              <td><a href='./setup-wizard-repo/win/Mongosh-2.2.12_WindowsOS-x64.msi'>Mongosh-2.2.12_WindowsOS-x64 (.msi)</a></td>
                               <td id="slabel">File Name:</td>
-                              <td><a href='../../setup-wizard-repo/mac/Mongosh-2.2.12_MacOS-x64.zip'>Mongosh-2.2.12_MacOS-x64 (.zip)</a></td>
+                              <td><a href='./setup-wizard-repo/mac/Mongosh-2.2.12_MacOS-x64.zip'>Mongosh-2.2.12_MacOS-x64 (.zip)</a></td>
                             </tr>
                             <tr>
                               <td id="label">44.3 (MB)</td>
-                              <td><a href='../../setup-wizard-repo/win/Mongosh-2.2.12_WindowsOS-x64.msi'>
+                              <td><a href='./setup-wizard-repo/win/Mongosh-2.2.12_WindowsOS-x64.msi'>
                                 <button id='download'>Download<span id="vline">
                                   <FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span>
                                 </button></a>
                               </td>
                               <td id="slabel">69.5 (MB)</td>
-                              <td><a href='../../setup-wizard-repo/mac/Mongosh-2.2.12_MacOS-x64.zip'>
+                              <td><a href='./setup-wizard-repo/mac/Mongosh-2.2.12_MacOS-x64.zip'>
                                 <button id='download'>Download<span id="vline">
                                   <FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span>
                                 </button></a>
