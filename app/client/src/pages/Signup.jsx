@@ -6,7 +6,11 @@ import Auth from '../utils/auth';
 //--------------------------------------------//
 const Signup = () => {
   const [formState, setFormState] = useState({firstName: '', lastName: '', username: '', email: '', password: '', });
-  const [addUser, { error, data }] = useMutation(ADD_USER);
+  const [addUser, { error, data }] = useMutation(ADD_USER, {
+    onCompleted: (data) => {
+      console.log(data);
+    },
+  });
   //--------------------------------------------//
   const handleChange = (event) => {
     const { name, value } = event.target;
