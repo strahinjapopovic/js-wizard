@@ -14,8 +14,6 @@ import postgresIcon from '../assets/images/software-icon/postgresql-icon.png';
 import mongodbIcon from '../assets/images/software-icon/mongodb-icon.png';
 import insomniaIcon from '../assets/images/software-icon/insomnia-icon.png';
 //-------------------------------------------------------------------------//
-const VsCodeWin = `VSCode-Setup-1.91.1_WindowsOS-x64.exe`;
-//-------------------------------------------------------------------------//
 function ErrorMessage() {
   const backArrow = "<<<";
   return (
@@ -81,7 +79,7 @@ class Profile extends Component {
                             </tr>
                             <tr>
                               <td id="label">File Name:</td>
-                              <td><Link to='./win/VSCode-Setup-1.91.1_WindowsOS-x64.exe' target='_blank' download={VsCodeWin}>VSCode-Setup-1.91.1_WindowsOS-x64 (.exe)</Link></td>
+                              <td><a href='./win/VSCode-Setup-1.91.1_WindowsOS-x64.exe' download>VSCode-Setup-1.91.1_WindowsOS-x64 (.exe)</a></td>
                               <td id="slabel">File Name:</td>
                               <td><Link onClick={alertMessage}>VSCode-Universal_MacOS (.zip)</Link></td>
                             </tr>
