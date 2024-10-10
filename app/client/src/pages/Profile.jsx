@@ -64,7 +64,7 @@ class Profile extends Component {
                               <td id="desc-img"><img src={vscIcon} width={50} /></td><td id="desc" colSpan={3}><strong>Visual Studio Code</strong>, also commonly referred to as VS Code,
                                 is a source-code editor developed by Microsoft for Windows, Linux, macOS and web browsers. Features include support for debugging,
                                 syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded version control with Git.
-                                For more information click <a href='https://code.visualstudio.com/download'>here</a>.
+                                For more information click <Link to='https://code.visualstudio.com/download'>here</Link>.
                               </td>
                             </tr>
                             <tr>
@@ -79,22 +79,22 @@ class Profile extends Component {
                             </tr>
                             <tr>
                               <td id="label">File Name:</td>
-                              <td><a href='./win/VSCode-Setup-1.91.1_WindowsOS-x64.exe' download>VSCode-Setup-1.91.1_WindowsOS-x64 (.exe)</a></td>
+                              <td><Link to='../../../../../data/warehouse/win/VSCode-Setup-1.91.1_WindowsOS-x64.zip' download>VSCode-Setup-1.91.1_WindowsOS-x64 (.zip)</Link></td>
                               <td id="slabel">File Name:</td>
-                              <td><Link onClick={alertMessage}>VSCode-Universal_MacOS (.zip)</Link></td>
+                              <td><Link to='../../../../../data/warehouse/mac/VSCode-Universal_MacOS.zip' download>VSCode-Universal_MacOS (.zip)</Link></td>
                             </tr>
                             <tr>
                               <td id="label">94.9 (MB)</td>
-                              <td><a href='./win/VSCode-Setup-1.91.1_WindowsOS-x64.exe' download>
-                                <button id='download'>Download<span id="vline">
-                                  <FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span>
-                                </button></a>
+                              <td>
+                                <Link to='../../../../../data/warehouse/win/VSCode-Setup-1.91.1_WindowsOS-x64.zip' download>
+                                  <button id='download'>Download<span id="vline"><FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span></button>
+                                </Link>
                               </td>
                               <td id="slabel">212 (MB)</td>
-                              <td><Link onClick={alertMessage}>
-                                <button id='download'>Download<span id="vline">
-                                  <FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span>
-                                </button></Link>
+                              <td>
+                                <Link to='../../../../../data/warehouse/mac/VSCode-Universal_MacOS.zip' download>
+                                  <button id='download'>Download<span id="vline"><FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span></button>
+                                </Link>
                               </td>
                             </tr>
                             <tr>
@@ -110,22 +110,22 @@ class Profile extends Component {
                             </tr>
                             <tr>
                               <td id="label">File Name:</td>
-                              <td><a href='./win/VSCode-Setup-1.91.1_WindowsOS-x64.exe' download>VSCodeUserSetup-1.91.1-ARM64 (.exe)</a></td>
+                              <td><Link to='../../../../../data/warehouse/win/VSCodeUserSetup-1.91.1-ARM64.zip' download>VSCodeUserSetup-1.91.1-ARM64 (.zip)</Link></td>
                               <td id="slabel">File Name:</td>
-                              <td><Link onClick={alertMessage}>VSCode-darwin-arm64 (.zip)</Link></td>
+                              <td><Link to='../../../../../data/warehouse/mac/VSCode-darwin-arm64.zip' download>VSCode-darwin-arm64 (.zip)</Link></td>
                             </tr>
                             <tr>
                               <td id="label">94.9 (MB)</td>
-                              <td><a href='./win/VSCode-Setup-1.91.1_WindowsOS-x64.exe' download>
-                                <button id='download'>Download<span id="vline">
-                                  <FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span>
-                                </button></a>
+                              <td>
+                                <Link to='../../../../../data/warehouse/win/VSCodeUserSetup-1.91.1-ARM64.zip' download>
+                                  <button id='download'>Download<span id="vline"><FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span></button>
+                                </Link>
                               </td>
                               <td id="slabel">124 (MB)</td>
-                              <td><Link onClick={alertMessage}>
-                                <button id='download'>Download<span id="vline">
-                                  <FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span>
-                                </button></Link>
+                              <td>
+                                <Link to='../../../../../data/warehouse/mac/VSCode-darwin-arm64.zip' download>
+                                  <button id='download'>Download<span id="vline"><FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span></button>
+                                </Link>
                               </td>
                             </tr>
                           </tbody>
@@ -177,36 +177,36 @@ class Profile extends Component {
                               </td>
                             </tr>
                             <tr>
-                          <td id="devider" colSpan={4}></td>
-                        </tr>
-                        <tr>
-                          <td id="space" colSpan={4}></td>
-                        </tr>
-                        {/* -------------------------------------------------------------------------------------------------------------------------------------------- */}
-                        <tr>
-                          <td id="label">Operating System:</td><td id='os-box'>WindowsOS (ARM64)</td>
-                          <td id="slabel">Operating System:</td><td id='os-box'>MacOS (ARM64)</td>
-                        </tr>
-                        <tr>
-                          <td id="label">File Name:</td>
-                          <td><a href='./win/VSCode-Setup-1.91.1_WindowsOS-x64.exe' download>Node-v22.5.1_WindowsOS-ARM64 (.msi)</a></td>
-                          <td id="slabel">File Name:</td>
-                          <td><a href='./win/VSCode-Setup-1.91.1_WindowsOS-x64.exe' download>Node-v22.5.1_MacOS-ARM64 (.pkg)</a></td>
-                        </tr>
-                        <tr>
-                          <td id="label">24.2 (MB)</td>
-                          <td><a href='./setup-wizard-repo/win/Node-v22.5.1_WindowsOS-ARM64.msi'>
-                            <button id='download'>Download<span id="vline">
-                              <FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span>
-                            </button></a>
-                          </td>
-                          <td id="slabel">70.7 (MB)</td>
-                          <td><a href='./win/VSCode-Setup-1.91.1_WindowsOS-x64.exe' download>
-                            <button id='download'>Download<span id="vline">
-                              <FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span>
-                            </button></a>
-                          </td>
-                        </tr>
+                              <td id="devider" colSpan={4}></td>
+                            </tr>
+                            <tr>
+                              <td id="space" colSpan={4}></td>
+                            </tr>
+                            {/* -------------------------------------------------------------------------------------------------------------------------------------------- */}
+                            <tr>
+                              <td id="label">Operating System:</td><td id='os-box'>WindowsOS (ARM64)</td>
+                              <td id="slabel">Operating System:</td><td id='os-box'>MacOS (ARM64)</td>
+                            </tr>
+                            <tr>
+                              <td id="label">File Name:</td>
+                              <td><a href='./win/VSCode-Setup-1.91.1_WindowsOS-x64.exe' download>Node-v22.5.1_WindowsOS-ARM64 (.msi)</a></td>
+                              <td id="slabel">File Name:</td>
+                              <td><a href='./win/VSCode-Setup-1.91.1_WindowsOS-x64.exe' download>Node-v22.5.1_MacOS-ARM64 (.pkg)</a></td>
+                            </tr>
+                            <tr>
+                              <td id="label">24.2 (MB)</td>
+                              <td><a href='./setup-wizard-repo/win/Node-v22.5.1_WindowsOS-ARM64.msi'>
+                                <button id='download'>Download<span id="vline">
+                                  <FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span>
+                                </button></a>
+                              </td>
+                              <td id="slabel">70.7 (MB)</td>
+                              <td><a href='./win/VSCode-Setup-1.91.1_WindowsOS-x64.exe' download>
+                                <button id='download'>Download<span id="vline">
+                                  <FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span>
+                                </button></a>
+                              </td>
+                            </tr>
                           </tbody>
                         </table>
                       </td>

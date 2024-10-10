@@ -80,7 +80,7 @@ class Home extends Component {
                             </tr>
                             <tr>
                               <td id="label">File Name:</td>
-                              <td><Link to='/login'>VSCode-Setup-1.91.1_WindowsOS-x64 (.exe)</Link></td>
+                              <td><Link to='/login'>VSCode-Setup-1.91.1_WindowsOS-x64 (.zip)</Link></td>
                               <td id="slabel">File Name:</td>
                               <td><Link to='/login'>VSCode-Universal_MacOS (.zip)</Link></td>
                             </tr>
@@ -111,7 +111,7 @@ class Home extends Component {
                             </tr>
                             <tr>
                               <td id="label">File Name:</td>
-                              <td><Link to='/login'>VSCodeUserSetup-1.91.1-ARM64 (.exe)</Link></td>
+                              <td><Link to='/login'>VSCodeUserSetup-1.91.1-ARM64 (.zip)</Link></td>
                               <td id="slabel">File Name:</td>
                               <td><Link to='/login'>VSCode-darwin-arm64 (.zip)</Link></td>
                             </tr>
