@@ -79,20 +79,20 @@ class Profile extends Component {
                             </tr>
                             <tr>
                               <td id="label">File Name:</td>
-                              <td><Link to='../../../../../data/warehouse/win/VSCode-Setup-1.91.1_WindowsOS-x64.zip' download>VSCode-Setup-1.91.1_WindowsOS-x64 (.zip)</Link></td>
+                              <td><Link to='/data/warehouse/win/VSCode-Setup-1.91.1_WindowsOS-x64.zip' download>VSCode-Setup-1.91.1_WindowsOS-x64 (.zip)</Link></td>
                               <td id="slabel">File Name:</td>
-                              <td><Link to='../../../../../data/warehouse/mac/VSCode-Universal_MacOS.zip' download>VSCode-Universal_MacOS (.zip)</Link></td>
+                              <td><Link to='/data/warehouse/mac/VSCode-Universal_MacOS.zip' download>VSCode-Universal_MacOS (.zip)</Link></td>
                             </tr>
                             <tr>
                               <td id="label">94.9 (MB)</td>
                               <td>
-                                <Link to='../../../../../data/warehouse/win/VSCode-Setup-1.91.1_WindowsOS-x64.zip' download>
+                                <Link to='/data/warehouse/win/VSCode-Setup-1.91.1_WindowsOS-x64.zip' download>
                                   <button id='download'>Download<span id="vline"><FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span></button>
                                 </Link>
                               </td>
                               <td id="slabel">212 (MB)</td>
                               <td>
-                                <Link to='../../../../../data/warehouse/mac/VSCode-Universal_MacOS.zip' download>
+                                <Link to='/data/warehouse/mac/VSCode-Universal_MacOS.zip' download>
                                   <button id='download'>Download<span id="vline"><FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span></button>
                                 </Link>
                               </td>
@@ -110,20 +110,20 @@ class Profile extends Component {
                             </tr>
                             <tr>
                               <td id="label">File Name:</td>
-                              <td><Link to='../../../../../data/warehouse/win/VSCodeUserSetup-1.91.1-ARM64.zip' download>VSCodeUserSetup-1.91.1-ARM64 (.zip)</Link></td>
+                              <td><Link to='/data/warehouse/win/VSCodeUserSetup-1.91.1-ARM64.zip' download>VSCodeUserSetup-1.91.1-ARM64 (.zip)</Link></td>
                               <td id="slabel">File Name:</td>
-                              <td><Link to='../../../../../data/warehouse/mac/VSCode-darwin-arm64.zip' download>VSCode-darwin-arm64 (.zip)</Link></td>
+                              <td><Link to='/data/warehouse/mac/VSCode-darwin-arm64.zip' download>VSCode-darwin-arm64 (.zip)</Link></td>
                             </tr>
                             <tr>
                               <td id="label">94.9 (MB)</td>
                               <td>
-                                <Link to='../../../../../data/warehouse/win/VSCodeUserSetup-1.91.1-ARM64.zip' download>
+                                <Link to='/data/warehouse/win/VSCodeUserSetup-1.91.1-ARM64.zip' download>
                                   <button id='download'>Download<span id="vline"><FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span></button>
                                 </Link>
                               </td>
                               <td id="slabel">124 (MB)</td>
                               <td>
-                                <Link to='../../../../../data/warehouse/mac/VSCode-darwin-arm64.zip' download>
+                                <Link to='/data/warehouse/mac/VSCode-darwin-arm64.zip' download>
                                   <button id='download'>Download<span id="vline"><FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span></button>
                                 </Link>
                               </td>
