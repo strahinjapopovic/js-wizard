@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
 import Auth from '../utils/auth';
 import { Link } from 'react-router-dom';
+import React, { Component } from 'react';
 //-------------------------------------------------------------------------//
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
@@ -23,9 +23,6 @@ function ErrorMessage() {
       <p id="link"><Link to="/" > {backArrow} Back</Link></p>
     </code>
   );
-}
-function alertMessage() {
-  alert(`File temporary unavailable ! ...`);
 }
 class Profile extends Component {
   constructor(props) {
@@ -79,22 +76,22 @@ class Profile extends Component {
                             </tr>
                             <tr>
                               <td id="label">File Name:</td>
-                              <td><Link to='./data/warehouse/win/VSCode-Setup-1.91.1_WindowsOS-x64.zip' download>VSCode-Setup-1.91.1_WindowsOS-x64 (.zip)</Link></td>
+                              <td><a href='/data/warehouse/win/VSCode-Setup-1.91.1_WindowsOS-x64.exe' download>VSCode-Setup-1.91.1_WindowsOS-x64 (.exe)</a></td>
                               <td id="slabel">File Name:</td>
-                              <td><Link to='./data/warehouse/mac/VSCode-Universal_MacOS.zip' download>VSCode-Universal_MacOS (.zip)</Link></td>
+                              <td><a href='/data/warehouse/mac/VSCode-Universal_MacOS.zip' download>VSCode-Universal_MacOS (.zip)</a></td>
                             </tr>
                             <tr>
                               <td id="label">94.9 (MB)</td>
                               <td>
-                                <Link to='./data/warehouse/win/VSCode-Setup-1.91.1_WindowsOS-x64.zip' download>
+                                <a href='/data/warehouse/win/VSCode-Setup-1.91.1_WindowsOS-x64.exe' download>
                                   <button id='download'>Download<span id="vline"><FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span></button>
-                                </Link>
+                                </a>
                               </td>
                               <td id="slabel">212 (MB)</td>
                               <td>
-                                <Link to='./data/warehouse/mac/VSCode-Universal_MacOS.zip' download>
+                                <a href='/data/warehouse/mac/VSCode-Universal_MacOS.zip' download>
                                   <button id='download'>Download<span id="vline"><FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span></button>
-                                </Link>
+                                </a>
                               </td>
                             </tr>
                             <tr>
@@ -110,22 +107,22 @@ class Profile extends Component {
                             </tr>
                             <tr>
                               <td id="label">File Name:</td>
-                              <td><Link to='./data/warehouse/win/VSCodeUserSetup-1.91.1-ARM64.zip' download>VSCodeUserSetup-1.91.1-ARM64 (.zip)</Link></td>
+                              <td><a href='/data/warehouse/win/VSCodeUserSetup-1.91.1-ARM64.exe' download>VSCodeUserSetup-1.91.1-ARM64 (.exe)</a></td>
                               <td id="slabel">File Name:</td>
-                              <td><Link to='./data/warehouse/mac/VSCode-darwin-arm64.zip' download>VSCode-darwin-arm64 (.zip)</Link></td>
+                              <td><a href='/data/warehouse/win/VSCode-darwin-arm64.zip' download>VSCode-darwin-arm64 (.zip)</a></td>
                             </tr>
                             <tr>
                               <td id="label">94.9 (MB)</td>
                               <td>
-                                <Link to='./data/warehouse/win/VSCodeUserSetup-1.91.1-ARM64.zip' download>
+                              <a href='/data/warehouse/win/VSCodeUserSetup-1.91.1-ARM64.exe' download>
                                   <button id='download'>Download<span id="vline"><FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span></button>
-                                </Link>
+                                </a>
                               </td>
                               <td id="slabel">124 (MB)</td>
                               <td>
-                                <Link to='./data/warehouse/mac/VSCode-darwin-arm64.zip' download>
+                              <a href='/data/warehouse/win/VSCode-darwin-arm64.zip' download>
                                   <button id='download'>Download<span id="vline"><FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span></button>
-                                </Link>
+                                </a>
                               </td>
                             </tr>
                           </tbody>
@@ -158,22 +155,22 @@ class Profile extends Component {
                             </tr>
                             <tr>
                               <td id="label">File Name:</td>
-                              <td><a href='./win/VSCode-Setup-1.91.1_WindowsOS-x64.exe' download>Node-v22.5.1_WindowsOS-x64 (.msi)</a></td>
+                              <td><a href='/data/warehouse/win/Node-v22.5.1_WindowsOS-x64.msi' download>Node-v22.5.1_WindowsOS-x64 (.msi)</a></td>
                               <td id="slabel">File Name:</td>
-                              <td><a href='./setup-wizard-repo/mac/Node-v22.5.1_MacOS-x64.pkg'>Node-v22.5.1_MacOS-x64 (.pkg)</a></td>
+                              <td><a href='/data/warehouse/mac/Node-v22.5.1_MacOS-x64.pkg'>Node-v22.5.1_MacOS-x64 (.pkg)</a></td>
                             </tr>
                             <tr>
                               <td id="label">27.5 (MB)</td>
-                              <td><a href='./win/VSCode-Setup-1.91.1_WindowsOS-x64.exe' download>
-                                <button id='download'>Download<span id="vline">
-                                  <FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span>
-                                </button></a>
+                              <td>
+                                <a href='/data/warehouse/win/Node-v22.5.1_WindowsOS-x64.msi' download>
+                                  <button id='download'>Download<span id="vline"><FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span></button>
+                                </a>
                               </td>
                               <td id="slabel">78.6 (MB)</td>
-                              <td><a href='./win/VSCode-Setup-1.91.1_WindowsOS-x64.exe' download>
-                                <button id='download'>Download<span id="vline">
-                                  <FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span>
-                                </button></a>
+                              <td>
+                                <a href='/data/warehouse/mac/Node-v22.5.1_MacOS-x64.pkg' download>
+                                  <button id='download'>Download<span id="vline"><FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span></button>
+                                </a>
                               </td>
                             </tr>
                             <tr>
@@ -189,22 +186,22 @@ class Profile extends Component {
                             </tr>
                             <tr>
                               <td id="label">File Name:</td>
-                              <td><a href='./win/VSCode-Setup-1.91.1_WindowsOS-x64.exe' download>Node-v22.5.1_WindowsOS-ARM64 (.msi)</a></td>
+                              <td><a href='/data/warehouse/win/Node-v22.5.1_WindowsOS-ARM64.msi' download>Node-v22.5.1_WindowsOS-ARM64 (.msi)</a></td>
                               <td id="slabel">File Name:</td>
-                              <td><a href='./win/VSCode-Setup-1.91.1_WindowsOS-x64.exe' download>Node-v22.5.1_MacOS-ARM64 (.pkg)</a></td>
+                              <td><a href='/data/warehouse/mac/Node-v22.5.1_MacOS-ARM64.pkg' download>Node-v22.5.1_MacOS-ARM64 (.pkg)</a></td>
                             </tr>
                             <tr>
                               <td id="label">24.2 (MB)</td>
-                              <td><a href='./setup-wizard-repo/win/Node-v22.5.1_WindowsOS-ARM64.msi'>
-                                <button id='download'>Download<span id="vline">
-                                  <FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span>
-                                </button></a>
+                              <td>
+                                <a href='/data/warehouse/win/Node-v22.5.1_WindowsOS-ARM64.msi'>
+                                  <button id='download'>Download<span id="vline"><FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span></button>
+                                </a>
                               </td>
                               <td id="slabel">70.7 (MB)</td>
-                              <td><a href='./win/VSCode-Setup-1.91.1_WindowsOS-x64.exe' download>
-                                <button id='download'>Download<span id="vline">
-                                  <FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span>
-                                </button></a>
+                              <td>
+                                <a href='/data/warehouse/mac/Node-v22.5.1_MacOS-ARM64.pkg' download>
+                                  <button id='download'>Download<span id="vline"><FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span></button>
+                                </a>
                               </td>
                             </tr>
                           </tbody>
@@ -238,22 +235,22 @@ class Profile extends Component {
                             </tr>
                             <tr>
                               <td id="label">File Name:</td>
-                              <td><Link onClick={alertMessage}>PostgreSQL-16.3-2_WindowsOS-x64 (.exe)</Link></td>
+                              <td><a href='/data/warehouse/win/PostgreSQL-16.3-2_WindowsOS-x64.exe' download>PostgreSQL-16.3-2_WindowsOS-x64 (.exe)</a></td>
                               <td id="slabel">File Name:</td>
-                              <td><Link onClick={alertMessage}>PostgreSQL-16.3-1_OSX (.dmg)</Link></td>
+                              <td><a href='/data/warehouse/mac/PostgreSQL-16.3-1_OSX.dmg' download>PostgreSQL-16.3-1_OSX (.dmg)</a></td>
                             </tr>
                             <tr>
                               <td id="label">367 (MB)</td>
-                              <td><Link onClick={alertMessage}>
-                                <button id='download'>Download<span id="vline">
-                                  <FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span>
-                                </button></Link>
+                              <td>
+                                <a href='/data/warehouse/win/PostgreSQL-16.3-2_WindowsOS-x64.exe' download>
+                                  <button id='download'>Download<span id="vline"><FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span></button>
+                                </a>
                               </td>
                               <td id="slabel">369 (MB)</td>
-                              <td><Link onClick={alertMessage}>
-                                <button id='download'>Download<span id="vline">
-                                  <FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span>
-                                </button></Link>
+                              <td>
+                                <a href='/data/warehouse/mac/PostgreSQL-16.3-1_OSX.dmg' download>
+                                  <button id='download'>Download<span id="vline"><FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span></button>
+                                </a>
                               </td>
                             </tr>
                           </tbody>
@@ -289,22 +286,22 @@ class Profile extends Component {
                             </tr>
                             <tr>
                               <td id="label">File Name:</td>
-                              <td><Link onClick={alertMessage}>MongoDB-7.0.12_WindowsOS-x86-64-signed (.msi)</Link></td>
+                              <td><a href='/data/warehouse/win/MongoDB-7.0.12_WindowsOS-x86-64-signed.msi' download>MongoDB-7.0.12_WindowsOS-x86-64-signed (.msi)</a></td>
                               <td id="slabel">File Name:</td>
-                              <td><a href='./win/VSCode-Setup-1.91.1_WindowsOS-x64.exe' download>MongoDB-7.0.12_MacOS-x86-64 (.tgz)</a></td>
+                              <td><a href='/data/warehouse/mac/MongoDB-7.0.12_MacOS-x86-64.tgz' download>MongoDB-7.0.12_MacOS-x86-64 (.tgz)</a></td>
                             </tr>
                             <tr>
                               <td id="label">568 (MB)</td>
-                              <td><Link onClick={alertMessage}>
-                                <button id='download'>Download<span id="vline">
-                                  <FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span>
-                                </button></Link>
+                              <td>
+                                <a href='/data/warehouse/win/MongoDB-7.0.12_WindowsOS-x86-64-signed.msi' download>
+                                  <button id='download'>Download<span id="vline"><FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span></button>
+                                </a>
                               </td>
                               <td id="slabel">70.8 (MB)</td>
-                              <td><a href='./win/VSCode-Setup-1.91.1_WindowsOS-x64.exe' download>
-                                <button id='download'>Download<span id="vline">
-                                  <FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span>
-                                </button></a>
+                              <td>
+                                <a href='/data/warehouse/mac/MongoDB-7.0.12_MacOS-x86-64.tgz' download>
+                                  <button id='download'>Download<span id="vline"><FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span></button>
+                                </a>
                               </td>
                             </tr>
                             {/* -------------------------------------------------------------------------------------------------------------------------------------------- */}
@@ -321,22 +318,22 @@ class Profile extends Component {
                             </tr>
                             <tr>
                               <td id="label">File Name:</td>
-                              <td><Link onClick={alertMessage}>MongoDB-7.0.12_Windows-x86_64 (.zip)</Link></td>
+                              <td><a href='/data/warehouse/win/MongoDB-7.0.12_Windows-x86_64.zip' download>MongoDB-7.0.12_Windows-x86_64 (.zip)</a></td>
                               <td id="slabel">File Name:</td>
-                              <td><a href='./win/VSCode-Setup-1.91.1_WindowsOS-x64.exe' download>MongoDB-7.0.12_MacOS-ARM64 (.tgz)</a></td>
+                              <td><a href='/data/warehouse/mac/MongoDB-7.0.12_MacOS-ARM64.tgz' download>MongoDB-7.0.12_MacOS-ARM64 (.tgz)</a></td>
                             </tr>
                             <tr>
                               <td id="label">590 (MB)</td>
-                              <td><Link onClick={alertMessage}>
-                                <button id='download'>Download<span id="vline">
-                                  <FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span>
-                                </button></Link>
+                              <td>
+                                <a href='/data/warehouse/win/MongoDB-7.0.12_Windows-x86_64.zip' download>
+                                  <button id='download'>Download<span id="vline"><FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span></button>
+                                </a>
                               </td>
                               <td id="slabel">65.3 (MB)</td>
-                              <td><a href='./win/VSCode-Setup-1.91.1_WindowsOS-x64.exe' download>
-                                <button id='download'>Download<span id="vline">
-                                  <FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span>
-                                </button></a>
+                              <td>
+                                <a href='/data/warehouse/mac/MongoDB-7.0.12_MacOS-ARM64.tgz' download>
+                                  <button id='download'>Download<span id="vline"><FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span></button>
+                                </a>
                               </td>
                             </tr>
                           </tbody>
@@ -372,22 +369,22 @@ class Profile extends Component {
                             </tr>
                             <tr>
                               <td id="label">File Name:</td>
-                              <td><a href='./win/VSCode-Setup-1.91.1_WindowsOS-x64.exe' download>Mongosh-2.2.12_WindowsOS-x64 (.msi)</a></td>
+                              <td><a href='/data/warehouse/win/Mongosh-2.2.12_WindowsOS-x64.msi' download>Mongosh-2.2.12_WindowsOS-x64 (.msi)</a></td>
                               <td id="slabel">File Name:</td>
-                              <td><a href='./win/VSCode-Setup-1.91.1_WindowsOS-x64.exe' download>Mongosh-2.2.12_MacOS-x64 (.zip)</a></td>
+                              <td><a href='/data/warehouse/mac/Mongosh-2.2.12_MacOS-x64.zip' download>Mongosh-2.2.12_MacOS-x64 (.zip)</a></td>
                             </tr>
                             <tr>
                               <td id="label">44.3 (MB)</td>
-                              <td><a href='./win/VSCode-Setup-1.91.1_WindowsOS-x64.exe' download>
-                                <button id='download'>Download<span id="vline">
-                                  <FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span>
-                                </button></a>
+                              <td>
+                                <a href='/data/warehouse/win/Mongosh-2.2.12_WindowsOS-x64.msi' download>
+                                  <button id='download'>Download<span id="vline"><FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span></button>
+                                </a>
                               </td>
                               <td id="slabel">69.5 (MB)</td>
-                              <td><a href='./win/VSCode-Setup-1.91.1_WindowsOS-x64.exe' download>
-                                <button id='download'>Download<span id="vline">
-                                  <FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span>
-                                </button></a>
+                              <td>
+                                <a href='/data/warehouse/mac/Mongosh-2.2.12_MacOS-x64.zip' download>
+                                  <button id='download'>Download<span id="vline"><FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span></button>
+                                </a>
                               </td>
                             </tr>
                           </tbody>
@@ -424,22 +421,22 @@ class Profile extends Component {
                             </tr>
                             <tr>
                               <td id="label">File Name:</td>
-                              <td><Link onClick={alertMessage}>Insomnia-Core-9.3.2_WindowsOS-x64 (.exe)</Link></td>
+                              <td><a href='/data/warehouse/win/Insomnia-Core-9.3.2_WindowsOS-x64.exe' download>Insomnia-Core-9.3.2_WindowsOS-x64 (.exe)</a></td>
                               <td id="slabel">File Name:</td>
-                              <td><Link onClick={alertMessage}>Insomnia-Core-9.3.2_MacOSX (.dmg)</Link></td>
+                              <td><a href='/data/warehouse/mac/Insomnia-Core-9.3.2_MacOSX.dmg' download>Insomnia-Core-9.3.2_MacOSX (.dmg)</a></td>
                             </tr>
                             <tr>
                               <td id="label">151 (MB)</td>
-                              <td><Link onClick={alertMessage}>
-                                <button id='download'>Download<span id="vline">
-                                  <FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span>
-                                </button></Link>
+                              <td>
+                                <a href='/data/warehouse/win/Insomnia-Core-9.3.2_WindowsOS-x64.exe' download>
+                                  <button id='download'>Download<span id="vline"><FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span></button>
+                                </a>
                               </td>
                               <td id="slabel">216 (MB)</td>
-                              <td><Link onClick={alertMessage}>
-                                <button id='download'>Download<span id="vline">
-                                  <FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span>
-                                </button></Link>
+                              <td>
+                                <a href='/data/warehouse/mac/Insomnia-Core-9.3.2_MacOSX.dmg' download>
+                                  <button id='download'>Download<span id="vline"><FontAwesomeIcon icon={faDownload} style={{ color: "#00FFFF7", }} /></span></button>
+                                </a>
                               </td>
                             </tr>
                           </tbody>
